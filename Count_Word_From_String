@@ -1,0 +1,13 @@
+
+public class Count_Number_Word {
+	public static void main(String[] args) {
+		String str="What is your name";
+		String st[]=str.trim().split(" ");//trim()method delete white space from starting and split(" ")method split word is is given in side bracket here in case whiteSpace is given then it break from whiteSpace 
+		for (String s : st) {
+			System.out.println(s);
+			
+		}
+		System.out.println(st.length);
+	}
+
+}
