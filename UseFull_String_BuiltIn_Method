@@ -1,0 +1,27 @@
+
+public class String_Methods {
+	public static void main(String[] args) {
+//		String st=new String("Saqeeb");
+//		String st1=new String("Saqeeb");
+//		System.out.println(st==st1);//here compare object address ans=false
+//		System.out.println(st.equals(st1));//hare compare value of object ans=true
+		String s1=" Saqeeb ";
+		String s2="Alam";
+		System.out.println(s1.concat(s2));//add to string
+		System.out.println(s1.toLowerCase());//convert to lower case
+		System.out.println(s2.toUpperCase());//convert to upper case
+		System.out.println(s1.startsWith("S"));//it tell starting element if yes give true else false
+		System.out.println(s2.endsWith("a"));//it tell ending element if yes give true else false
+		System.out.println(s1.length());//it tell string length
+		System.out.println(s1.trim());//it delete white space from starting and ending
+		System.out.println(s2.charAt(0));//it print  index vale
+		System.out.println(s2.codePointAt(0));//it give ascii value
+		System.out.println(s1.codePointBefore(2));//it give ascii value index value before
+		System.out.println(s2.codePointCount(0, 3));//return number of unicode
+        System.out.println(s2.compareToIgnoreCase(s1));
+        System.out.println(s1.contains(s1));//check if same value
+        System.out.println(s1.hashCode());//get hash code
+        System.out.println(s1.isEmpty());//check either string is empty
+	}
+
+}
