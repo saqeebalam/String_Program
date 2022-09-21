@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+//Wap to check wether given string is palindrome or not
+public class Palindrome_String {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter String to Check Palindrome or not");
+		String str=sc.next();
+		int count=0;
+		int i=str.length()-1;
+		for(int j=0;j<str.length()/2;j++) {
+			if(str.charAt(j)==str.charAt(i)) {
+				count++;
+			}
+			i--;
+		}
+		if(count==str.length()/2) {
+			System.out.println("String is Palindrome");
+		}else {
+			System.out.println("String is not palindrome");
+		}
+		sc.close();
+	}
+
+}
