@@ -1,0 +1,28 @@
+package array;
+
+public class Sentance_Is_Create_Or_Not_Given_Data {
+	public static void main(String[] args) {
+		String arr1[]= {"find", "a", "geeks", "all", "for", "on", "geeks", "answers", "inter"};
+		String arr2[]= {"find", "a", "geek" };
+		int j=0;
+		int count=0;
+		boolean k=false;
+		x:for(int i=0;i<arr1.length;i++) {
+			if(arr2[j]==arr1[i]) {
+				j++;
+				count++;
+				if(count==arr2.length) {
+					k=true;
+					break x;
+				}
+			}
+		}
+		
+	if(k==true) {
+		System.out.println("Sentence form");
+	}else {
+		System.out.println("Sentence not form");
+	}
+	}
+
+}
