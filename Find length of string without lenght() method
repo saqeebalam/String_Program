@@ -1,0 +1,13 @@
+
+public class Test_Delete {
+	public static void main(String[] args) {
+		String str="Saqeeb alam ";
+		System.out.println(str);
+		int i=0;
+		for (char c : str.toCharArray()) {
+			i++;
+		}
+		System.out.println("size of array="+i);
+	}
+
+}
