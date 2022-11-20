@@ -1,0 +1,33 @@
+
+public class Test_Delete {
+	public static void main(String[] args) {
+//
+	String str="pankaj sir academy";
+////1ste method to reverse string without reverse() method
+		char arr[]=new char [str.length()];
+		int i=0;
+		for (char c: str.toCharArray()) {
+			arr[i]=c;
+			i++;
+		}
+		for (int j =arr.length-1;j>=0;j--) {
+			System.out.print(arr[j]);
+		}
+//		
+////2nd method to reverse string without reverse()in built method
+//		for (int i=str.length()-1;i>=0;i--) {
+//			System.out.print(str.charAt(i));
+		}
+	//febonaci series	
+//		long x=1,y=1,z=0;
+//		long temp=0;
+//		for(int i=0;i<50;i++) {
+//			z=x+y;
+//			System.out.println(z);
+//			temp=x;
+//			x=z;
+//			y=temp;
+//			
+//		}
+}
+
